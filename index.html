@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Product landing page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manjari&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container--header">
+      <header id="header">
+        <div class="header__imagebox">
+          <img
+            src="./image/original_trombones.jpg"
+            alt="logo"
+            class="header__img"
+          />
+        </div>
+        <nav id="nav-bar">
+          <ul class="nav__bar">
+            <li><a class="nav-link" href="#">Features</a></li>
+            <li><a class="nav-link" href="#">How It Works</a></li>
+            <li><a class="nav-link" href="#product__pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <section class="title">
+      <h2 class="page-title">Handcrafted, home-made masterpieces</h2>
+      <form action=" https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input
+          type="submit"
+          id="submit"
+          value="LET'S JAZZ!"
+          class="product__cta"
+        />
+      </form>
+    </section>
+    <main class="details">
+      <div class="product-detail">
+        <div class="product-detail-icon">
+          <svg class="nav__icon">
+            <use xlink:href="image/sprite.svg#icon-fire"></use>
+          </svg>
+        </div>
+        <div class="product-detail-text">
+          <h2 class="product-detail-text--main">Premium Materials</h2>
+          <p class="product-detail-text--submain">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+
+      <div class="product-detail">
+        <div class="product-detail-icon">
+          <svg class="nav__icon">
+            <use xlink:href="image/sprite.svg#icon-truck"></use>
+          </svg>
+        </div>
+        <div class="product-detail-text">
+          <h2 class="product-detail-text--main">Fast Shipping</h2>
+          <p class="product-detail-text--submain">
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+      </div>
+
+      <div class="product-detail">
+        <div class="product-detail-icon">
+          <svg class="nav__icon">
+            <use xlink:href="image/sprite.svg#icon-sun"></use>
+          </svg>
+        </div>
+        <div class="product-detail-text">
+          <h2 class="product-detail-text--main">Quality Assurance</h2>
+          <p class="product-detail-text--submain">
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+    </main>
+    <section class="showcase" id="video">
+      <iframe
+        class="showcase--video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Gsz3mrnIBd0"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="product__pricing">
+      <div class="product__pricing--detail">
+        <div class="product-heading">
+          <h3>TENOR TROMBONE</h3>
+        </div>
+        <div class="product__price">$600</div>
+        <ul class="product__feature">
+          <li>Lorem ipsum</li>
+          <li>Lorem issum.</li>
+          <li>lorem ip sum dolor.</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <input
+          type="submit"
+          id="submit"
+          value="PICK ME!"
+          class="product__cta"
+        />
+      </div>
+
+      <div class="product__pricing--detail">
+        <div class="product-heading"><h3>BASS TROMBONE</h3></div>
+        <div class="product__price">$900</div>
+        <ul class="product__feature">
+          <li>Lorem ipsum</li>
+          <li>Lorem issum.</li>
+          <li>lorem ip sum dolor.</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <input
+          type="submit"
+          id="submit"
+          value="PICK ME!"
+          class="product__cta"
+        />
+      </div>
+
+      <div class="product__pricing--detail">
+        <div class="product-heading">
+          <h3>VALVE TROMBONE</h3>
+        </div>
+        <div class="product__price">$1200</div>
+        <ul class="product__feature">
+          <li>Lorem ipsum</li>
+          <li>Lorem issum.</li>
+          <li>lorem ip sum dolor.</li>
+          <li>Lorem ipsum</li>
+        </ul>
+        <input
+          type="submit"
+          id="submit"
+          value="PICK ME!"
+          class="product__cta"
+        />
+      </div>
+    </section>
+  </body>
+</html>

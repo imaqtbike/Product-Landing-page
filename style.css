@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__img {
+  height: 45px;
+  width: 330px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 500px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+}
+nav > ul:not(:last-child) {
+  padding: 10px 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  font-size: 15px;
+  background-color: coral;
+  border: none;
+  font-family: "Crete Round", serif;
+  border-radius: 8px;
+  width: 180px;
+  margin-top: 8px;
+}
+#email {
+  width: 295px;
+  padding: 3px 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+form {
+  display: block;
+  text-align: center;
+  width: 327px;
+  height: 90px;
+}
+
+.page-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Main styling */
+.details {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.product-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.product-detail-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav__icon {
+  height: 55px;
+  fill: #ffb366;
+}
+
+.details {
+  padding: -10px 20px;
+}
+
+.product-detail-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 90vw;
+  padding: 10px;
+}
+
+.product-detail-text--main {
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
+  font-family: "Rowdies", cursive;
+}
+
+.product-detail-text--submain {
+  font-size: 17px;
+  line-height: 1.1;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+/* /////////////////////////////////////////// */
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.showcase--video {
+  margin: 0 auto;
+  width: 700px;
+  height: 420px;
+}
+
+/*///////////////////////*/
+
+/* PRODUCT PRICE /////////////////////////////////////////
+////////////////////////////////////*/
+
+#product__pricing {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.product__pricing--detail {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 10px;
+  height: 240px;
+  width: 19%;
+  box-shadow: -2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.product__pricing--detail > ul {
+  list-style: none;
+  margin-bottom: 10px;
+  align-self: center;
+  font-size: 17px;
+  font-family: "Manjari", sans-serif;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.product__price {
+  margin-bottom: 5px;
+  font-size: 29px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.product__cta {
+  padding: 10px 25px;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  background-color: #ffa366;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  border: none;
+}
+.product-heading {
+  font-weight: 100;
+}
